@@ -1,3 +1,50 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Space+Mono:ital,wght@0,400;1,700&display=swap");
+
+img {
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  font-family: "Space Mono", monospace;
+  text-transform: capitalize;
+}
+
+:root {
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  :root {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 425px) {
+  :root {
+    font-size: 12px;
+  }
+}
+
+.section-p {
+  padding: 6rem 0;
+}
+
+.section_title {
+  font-size: 2.2rem;
+  margin-bottom: 4rem;
+}
+
+.container {
+  width: 85%;
+}
