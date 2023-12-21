@@ -3,25 +3,24 @@
 .resume_content {
 }
 
-.resume .content {
+.resume .work_content {
   width: 100%;
-  height: 100vh;
 }
-.resume .content::after,
-.resume .content::before {
+.resume .work_content::after,
+.resume .work_content::before {
   position: absolute;
   left: 50%;
   background: #e6e6e6;
 }
 
-.resume .content::after {
+.resume .work_content::after {
   content: "";
   height: 100%;
   width: 0.125rem;
   transform: translateX(50%);
 }
 
-.resume .content::before {
+.resume .work_content::before {
   content: "Work Experience";
   top: 0;
   width: 12.89063rem;
@@ -34,4 +33,114 @@
   letter-spacing: 0.2125rem;
   text-transform: uppercase;
   font-size: 0.865rem;
+}
+
+.resume .education::before {
+  content: "Education";
+}
+
+.work_content {
+}
+
+.work_box {
+  width: 50%;
+}
+
+.work_box:nth-of-type(even) {
+  text-align: left;
+  align-items: flex-start;
+  margin-left: auto;
+}
+
+.work_box:nth-of-type(odd) {
+  text-align: right;
+  align-items: flex-end;
+}
+
+.before_icon {
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2.7rem;
+  height: 2.7rem;
+  border-radius: 50%;
+  background: #a53f31;
+  color: #fff;
+  z-index: 1;
+}
+
+.work_box:nth-of-type(even) .before_icon {
+  left: -1.35rem;
+}
+
+.work_box:nth-of-type(odd) .before_icon {
+  right: -1.35rem;
+}
+
+.work_content h3 {
+  color: #000;
+  font-family: Space Mono;
+  font-size: 1.5rem;
+}
+
+.work_content span {
+  color: #bfbfbf;
+  font-size: 1rem;
+}
+
+.work_content p {
+  color: #4d4d4d;
+  font-size: 1rem;
+}
+
+.resume_btn {
+  width: 12.89063rem;
+  padding: 10px 15px;
+  letter-spacing: 2px;
+  z-index: 1;
+  background: #dfdada;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.resume_btn::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#a53f31, #e08174);
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+.resume_btn:hover {
+  transform: scale(0.95);
+}
+
+@media (max-width: 767px) {
+  .resume .work_content::after,
+  .resume .work_content::before {
+    left: 0;
+  }
+  .resume .work_content::after {
+    transform: translateX(0%);
+  }
+
+  .resume .work_content::before {
+    transform: translateX(-2rem);
+  }
+  .work_box {
+    width: 100%;
+  }
+  .work_box:nth-of-type(even),
+  .work_box:nth-of-type(odd) {
+    text-align: left;
+    align-items: flex-start;
+  }
+  .work_box:nth-of-type(even) .before_icon {
+    left: -1.35rem;
+  }
+
+  .work_box:nth-of-type(odd) .before_icon {
+    right: calc(100% + -1.35rem);
+  }
 }
