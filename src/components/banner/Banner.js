@@ -15,7 +15,7 @@ const Banner = () => {
         <div
           className={`${styles.banner_content} flex flex-col justify-center items-center`}
         >
-          <div className={`${styles.overlay} absolute`}></div>
+          <div className={`overlay absolute`}></div>
           <div className={`${styles.img} `}>
             <img src={avatar} alt="avatar" />
           </div>

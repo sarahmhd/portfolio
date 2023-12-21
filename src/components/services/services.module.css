@@ -1,0 +1,35 @@
+.services {
+  background: url("../../assets/images/bg2.jpg") center no-repeat;
+  background-size: cover;
+  z-index: 1;
+  color: #fff;
+}
+
+.service {
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  min-height: 320px;
+}
+
+.service .icon {
+  width: 5.25rem;
+  height: 5.25rem;
+  border-radius: 50%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #a53f31;
+  font-size: 2rem;
+}
+
+.service h3 {
+  font-size: 1.2rem;
+}
+
+.service p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.94rem;
+  line-height: 1.7rem;
+}
