@@ -33,7 +33,7 @@ const AboutMe = () => {
                 <li className="flex justify-between">
                   <span className="font-bold">Email:</span>
                   <span className="font-thin lowercase">
-                    saramhd2468@gmail.com
+                    saraamhd2468@gmail.com
                   </span>
                 </li>
                 <li className="flex justify-between">

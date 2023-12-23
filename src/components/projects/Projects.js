@@ -118,11 +118,13 @@ const Projects = () => {
   const [tabs, setTabs] = useState("all");
 
   return (
-    <div className={`${styles.projects} section-p`}>
+    <div className={`${styles.projects} section-p relative`}>
       <div className="container mx-auto">
         <div
           className={`${styles.projects_content} flex flex-col justify-center items-center`}
         >
+          <div className={`overlay absolute`}></div>
+
           <h2 className="section_title">projects</h2>
           <div className={`${styles.tabs_btns} flex gap-3`}>
             <button className="btn" onClick={() => setTabs("all")}>

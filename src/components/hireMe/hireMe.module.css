@@ -1,0 +1,15 @@
+.hire .hire_content p {
+  font-size: 1.125rem;
+  line-height: 1.6875rem;
+  opacity: 0.8;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.hire_content a {
+  width: 10.62rem;
+  padding: 0.875rem 2.22806rem 0.875rem 2.25rem;
+  border-radius: 1.875rem;
+  color: #fff;
+  background: #ad4e41;
+}

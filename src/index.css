@@ -34,6 +34,7 @@ img {
 body {
   font-family: "Space Mono", monospace;
   text-transform: capitalize;
+  scroll-behavior: smooth;
 }
 
 .section-p {
