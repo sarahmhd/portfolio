@@ -6,7 +6,7 @@ const Card = ({ project }) => {
       href={project.demo}
       target="_blank"
       rel="noreferrer"
-      className={`${styles.project_card} relative col-span-12 md:col-span-6 lg:col-span-3`}
+      className={`${styles.project_card} relative col-span-12 md:col-span-6 lg:col-span-3 block`}
     >
       <div className={styles.img}>
         <img src={project.image} alt={project.title} />
