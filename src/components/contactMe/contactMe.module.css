@@ -66,3 +66,10 @@
 .socials .github:hover {
   background-color: #b92b27;
 }
+
+/* @media (max-width: 425px) {
+  .form,
+  .form form {
+    width: 90%;
+  }
+} */

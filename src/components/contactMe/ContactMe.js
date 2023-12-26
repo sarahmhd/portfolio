@@ -31,7 +31,7 @@ const ContactMe = () => {
           <div className={`overlay absolute`}></div>
           <h2 className="section_title">Contact Me</h2>
           <div
-            className={`${styles.content} grid grid-cols-12 justify-between  gap-12`}
+            className={`${styles.content} grid grid-cols-12 justify-between  gap-9 md:gap-12`}
           >
             <div
               className={`${styles.form} col-span-12 md:col-span-6 lg:col-span-6 justify-start order-2 md:order-1`}

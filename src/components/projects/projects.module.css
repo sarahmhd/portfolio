@@ -19,7 +19,7 @@
 }
 
 .content {
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 .project_card {
@@ -81,4 +81,11 @@
 
 .project_card:hover a {
   bottom: 30%;
+}
+
+@media (max-width: 425px) {
+  .img {
+    width: 90%;
+    margin: 0 auto;
+  }
 }
