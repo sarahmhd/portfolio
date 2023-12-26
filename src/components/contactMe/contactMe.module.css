@@ -1,0 +1,68 @@
+.contact {
+  background: url("../../assets/images/pexels-photo-577585.webp") center
+    no-repeat;
+  background-size: cover;
+  z-index: 1;
+  color: #fff;
+}
+
+.content {
+  width: 100%;
+}
+
+.form,
+.form form {
+  width: 100%;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  padding: 0.7rem 1rem;
+  border-radius: 0.1rem;
+  color: #000;
+}
+
+.form button {
+  background: #ad4e41;
+  width: fit-content;
+  padding: 0.7rem 1rem;
+  text-transform: capitalize;
+  border-radius: 30px;
+  transition: 0.5s;
+}
+
+.form button:hover {
+  transform: scale(0.95);
+}
+
+.socials li {
+  width: 2.5rem;
+  height: 2.5rem;
+  background: #ad4e41;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.socials li:hover {
+  transform: scale(0.94);
+}
+
+.socials .twitter:hover {
+  background-color: #1da1f2;
+}
+
+.socials .facebook:hover {
+  background-color: #1877f2;
+}
+
+.socials .linked:hover {
+  background-color: #0a66c2;
+}
+
+.socials .github:hover {
+  background-color: #b92b27;
+}

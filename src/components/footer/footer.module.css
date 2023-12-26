@@ -1,0 +1,8 @@
+.footer .footer_content p {
+  font-size: 1rem;
+}
+
+.footer .footer_content p span {
+  letter-spacing: 2px;
+  color: brown;
+}

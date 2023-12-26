@@ -28,12 +28,16 @@ const AboutMe = () => {
                 </li>
                 <li className="flex justify-between">
                   <span className="font-bold">Phone:</span>
-                  <span className="font-thin">01063442817</span>
+                  <span className="font-thin">
+                    <a href="tel:+201063442817">01063442817</a>
+                  </span>
                 </li>
                 <li className="flex justify-between">
                   <span className="font-bold">Email:</span>
                   <span className="font-thin lowercase">
-                    saraamhd2468@gmail.com
+                    <a href="mailto:+saraamhd2468@gmail.com">saraamhd2468@gmail.com</a>
+
+                    
                   </span>
                 </li>
                 <li className="flex justify-between">
